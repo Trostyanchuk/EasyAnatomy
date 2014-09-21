@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:background="@drawable/front_pic">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your question question Your question questionYour question questionYour question question:"
+            android:id="@+id/question"
+            android:textStyle="bold"
+            android:textColor="#ffffff" android:textIsSelectable="false" android:layout_alignParentLeft="true"
+            android:layout_margin="20dp"/>
+    <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button1 Button1 Button1 Button1 Button1 Button1"
+            android:id="@+id/variant1"
+            android:layout_alignParentLeft="false" android:layout_marginLeft="13dp" android:layout_alignParentTop="false"
+            android:layout_marginTop="80dp" android:layout_alignTop="@+id/question"
+            android:textStyle="italic"/>
+    <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button2 Button2 Button2 Button2 Button2 Button2"
+            android:id="@+id/variant2"
+            android:layout_alignParentLeft="false" android:layout_alignParentTop="false"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="13dp" android:textStyle="italic"
+            android:layout_alignTop="@+id/question"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button3 Button3 Button3 Button3 Button3 Button3 "
+            android:id="@+id/variant3" android:layout_alignLeft="@+id/variant1"
+            android:layout_alignParentTop="false" android:layout_marginTop="220dp"
+            android:layout_alignTop="@+id/question" android:textStyle="italic"/>
+</RelativeLayout>

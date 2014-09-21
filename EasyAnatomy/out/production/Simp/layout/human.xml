@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/container"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:padding="30dip"
+              android:orientation="vertical"
+              android:background="@drawable/human_organs">
+        <!--ZoomControls android:id="@+id/zoom_controls"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:layout_centerHorizontal="true"
+                      android:src="@android:drawable/ic_menu_zoom"
+                      android:layout_marginBottom="40dp"
+                />
+        <ImageView android:id="@+id/human_iv"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerHorizontal="true"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/human_body" /-->
+</RelativeLayout>

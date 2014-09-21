@@ -1,0 +1,9 @@
+ {"questions":
+   [{"question":"This is my first question about... about.. let it be brains",
+     "variants":["Brain is part of body","I don't image what is it","I'd like some sweets now"],
+     "answer":"1"}
+   ,
+   {"question":"question2question2",
+     "variants":["var1","var2","var3"],
+     "answer":"2"}]
+ }

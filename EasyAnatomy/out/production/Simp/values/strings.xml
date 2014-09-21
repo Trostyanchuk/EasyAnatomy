@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="grid_title">Game of Life Grid</string>
+    <string name="settings_title">Game of Life Settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="app_name">Easy anatomy</string>
+    <string name="main_title">Easy anatomy</string>
+    <string name="learn_label">Show and learn</string>
+    <string name="test_label">Test me</string>
+    <string name="results_label">Show results</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_text">The app is created for kids to learn inside structure of human</string>
+    <string name="about_title">About Easy Anatomy</string>
+    <string name="brain_title">Brain</string>
+    <string name="lungs_title">Lungs</string>
+    <string name="color_coding_title">3</string>
+    <string name="color_coding_summary">4</string>
+    <string name="brain_text">Your brain uses 20% of the total oxygen and blood in your body.
+        When awake, the human brain produces enough electricity to power a small lightbulb.</string>
+    <string name="lungs_text">There are many tubes that connect your mouth to the insides of your lungs.
+        Your trachea (or wind pipe) is the big tube you can feel in your throat.
+        This splits into main stem bronchi, which then split many more times into tiny tubes called bronchioles.
+        There are around 30,000 bronchioles in your lungs!</string>
+    <string name="heart_text">The average adult heart beats 72 times a minute; 100,000 times a day;
+        3,600,000 times a year; and 2.5 billion times during a lifetime.</string>
+    <string name="heart_title">Heart</string>
+</resources>
