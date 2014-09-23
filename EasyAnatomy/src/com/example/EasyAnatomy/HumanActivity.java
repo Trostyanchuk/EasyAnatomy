@@ -1,12 +1,13 @@
-package com.example.Simp;
+package com.example.EasyAnatomy;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
-import com.example.Simp.human_activity.BrainActivity;
-import com.example.Simp.human_activity.HeartActivity;
-import com.example.Simp.human_activity.LungsActivity;
+import com.example.EasyAnatomy.human_activity.BrainActivity;
+import com.example.EasyAnatomy.human_activity.HeartActivity;
+import com.example.EasyAnatomy.human_activity.LungsActivity;
+import com.example.EasyAnatomy.R;
 
 public class HumanActivity extends Activity {
 
@@ -18,7 +19,7 @@ public class HumanActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.quesucede.gameoflife.R.layout.human);
+        setContentView(R.layout.human);
 
         //img = (ImageView) findViewById(com.quesucede.gameoflife.R.id.human_iv);
         /**zoom = (ZoomControls) findViewById(com.quesucede.gameoflife.R.id.zoom_controls);

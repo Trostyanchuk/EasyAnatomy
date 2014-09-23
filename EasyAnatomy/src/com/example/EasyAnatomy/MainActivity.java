@@ -1,14 +1,26 @@
-package com.example.Simp;
+package com.example.EasyAnatomy;
 
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import com.example.Simp.about.AboutActivity;
-import com.example.Simp.results.ResultsActivity;
-import com.example.Simp.test.ChooseTestActivity;
-import com.quesucede.gameoflife.R;
+import com.example.EasyAnatomy.about.AboutActivity;
+import com.example.EasyAnatomy.results.ResultsActivity;
+import com.example.EasyAnatomy.test.ChooseTestActivity;
+import com.example.EasyAnatomy.test.Question;
+import com.example.EasyAnatomy.test.Result;
+import com.example.EasyAnatomy.util.JSONUtil;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.*;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -17,7 +29,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
+        initiateResultFile();
         //click-handlers for buttons
         View learnButton = findViewById(R.id.learn_button);
         learnButton.setOnClickListener(this);
@@ -51,6 +63,25 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.exit_button:
                 System.exit(0);
+        }
+    }
+
+    private void initiateResultFile() {
+        String jsonStr = JSONUtil.loadJSONFromInternalDir(this);
+        if(jsonStr == null || jsonStr.equals("")) {
+            JSONArray jsonArray = new JSONArray();
+            JSONObject jsonObject;
+            try {
+                for(int i = 0; i < JSONUtil.MAX_RECORDS; i++) {
+                    jsonObject = new JSONObject();
+                    jsonObject.put("date", "Еще не пройден");
+                    jsonObject.put("mark", 0);
+                    jsonArray.put(jsonObject);
+                }
+                JSONUtil.loadJSONToInternalDir(jsonArray, this);
+            } catch (JSONException e) {
+                e.getStackTrace();
+            }
         }
     }
 }

@@ -9,16 +9,26 @@
         <TextView android:text="@string/main_title"
                   android:layout_height="wrap_content" android:layout_width="wrap_content"
                   android:layout_gravity="center" android:layout_marginBottom="25dip"
-                  android:textSize="24.5sp" />
+                  android:textSize="24.5sp" android:textStyle="bold" android:typeface="serif"
+                  android:textColorLink="#ffffdc" android:textColorHint="#ffffff" android:textColorHighlight="#f9ff5b"
+                  android:textColor="#ffffff"/>
         <Button android:id="@+id/learn_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/learn_label" />
+                android:layout_height="wrap_content" android:text="@string/learn_label" android:textStyle="bold"
+                android:typeface="serif" android:textSize="6pt"/>
         <Button android:id="@+id/test_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/test_label" />
+                android:layout_height="wrap_content" android:text="@string/test_label" android:textStyle="bold"
+                android:typeface="serif" android:textSize="6pt"/>
         <Button android:id="@+id/results_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/results_label" />
+                android:layout_height="wrap_content" android:text="@string/results_label" android:textStyle="bold"
+                android:typeface="serif" android:textSize="6pt"/>
         <Button android:id="@+id/about_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/about_label" />
-        <Button android:id="@+id/exit_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/exit_label" />
+                android:layout_height="wrap_content" android:text="@string/about_label" android:textStyle="bold"
+                android:typeface="serif" android:textSize="6pt" android:textColor="#010101"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:id="@+id/exit_button" android:layout_gravity="center" android:textStyle="bold"
+                android:typeface="serif" android:textSize="6pt"/>
     </LinearLayout>
 </LinearLayout>

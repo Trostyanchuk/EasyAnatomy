@@ -1,4 +1,4 @@
-package com.example.Simp.test;
+package com.example.EasyAnatomy.test;
 
 public enum TestType {
 

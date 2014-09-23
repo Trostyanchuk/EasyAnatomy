@@ -1,9 +1,9 @@
-package com.example.Simp.human_activity;
+package com.example.EasyAnatomy.human_activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MotionEvent;
-import com.quesucede.gameoflife.R;
+import com.example.EasyAnatomy.R;
 
 
 public class LungsActivity extends Activity {

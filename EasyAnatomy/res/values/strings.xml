@@ -25,4 +25,5 @@
     <string name="heart_text">The average adult heart beats 72 times a minute; 100,000 times a day;
         3,600,000 times a year; and 2.5 billion times during a lifetime.</string>
     <string name="heart_title">Heart</string>
+    <string name="congrats">Твой результат:</string>
 </resources>

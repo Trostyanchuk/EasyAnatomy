@@ -1,4 +1,4 @@
-package com.example.Simp.test;
+package com.example.EasyAnatomy.test;
 
 
 import android.app.Activity;
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import com.quesucede.gameoflife.R;
+import com.example.EasyAnatomy.R;
 
 public class ChooseTestActivity extends Activity {
 

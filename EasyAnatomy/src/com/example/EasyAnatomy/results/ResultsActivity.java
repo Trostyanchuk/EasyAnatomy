@@ -1,13 +1,14 @@
-package com.example.Simp.results;
+package com.example.EasyAnatomy.results;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.example.EasyAnatomy.R;
 
 public class ResultsActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.quesucede.gameoflife.R.layout.results);
+        setContentView(R.layout.results);
     }
 }

@@ -1,16 +1,16 @@
-package com.example.Simp.about;
+package com.example.EasyAnatomy.human_activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MotionEvent;
-import com.quesucede.gameoflife.R;
+import com.example.EasyAnatomy.R;
 
-public class AboutActivity extends Activity {
+public class HeartActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.about);
+        setContentView(R.layout.heart);
     }
 
     @Override
