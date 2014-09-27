@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_button_height">270dp</dimen>
+    <dimen name="main_button_width">270dp</dimen>
+    <dimen name="main_text_size">50dp</dimen>
+    <dimen name="main_text_land_size">40dp</dimen>
+    <dimen name="main_button_text_size">40dp</dimen>
+    <dimen name="main_button_layout_margin_all">40dp</dimen>
+    <dimen name="main_text_layout_margin_top">40dp</dimen>
+    <dimen name="main_text_layout_margin_bottom">60dp</dimen>
+    <dimen name="main_button_margin_top">45dp</dimen>
+    <dimen name="main_button_margin_right_left">35dp</dimen>
+    <dimen name="main_land_label_margin_top">15dp</dimen>
+    <dimen name="main_land_button_margin_top">100dp</dimen>
+    <dimen name="main_land_button_margin_top_button">40dp</dimen>
+    <dimen name="main_land_button_margin_right_left">40dp</dimen>
+    <!--  -->
+    <dimen name="test_arrow_size">90dp</dimen>
+    <dimen name="test_arrov_margin_right_left">60dp</dimen>
+    <dimen name="test_aliment_element_height">70dp</dimen>
+    <dimen name="test_question_text_size">35dp</dimen>
+    <dimen name="test_variant_text_size">35dp</dimen>
+    <dimen name="test_checkbox_margin_top">25dp</dimen>
+    <dimen name="test_checkbox_margin_left">20dp</dimen>
+    <dimen name="test_question_margin_right_left">45dp</dimen>
+    <dimen name="test_question_margin_top_bottom">45dp</dimen>
+    <!--  -->
+    <dimen name="test_chooser_text_margin_top">85dp</dimen>
+    <dimen name="test_chooser_text_margin_right_left">55dp</dimen>
+    <dimen name="test_chooser_text_size">40dp</dimen>
+    <dimen name="test_chooser_text_variant_margin_top">75dp</dimen>
+    <dimen name="test_chooser_text_variant_margin_left">45dp</dimen>
+    <dimen name="test_chooser_arrow_margin_right">45dp</dimen>
+    <!--  -->
+    <dimen name="albom_pointer_text">50dp</dimen>
+</resources>
