@@ -3,10 +3,12 @@
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
-        <option name="device" value="2.7in QVGA" />
-        <option name="deviceConfiguration" value="Portrait" />
+        <option name="device" value="3.4in WQVGA" />
+        <option name="deviceConfiguration" value="Landscape" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
         <option name="targetHashString" value="android-19" />
-        <option name="theme" value="Theme" />
+        <option name="theme" value="Theme.NoTitleBar" />
       </profile>
     </option>
     <option name="selection" value="[Full]" />
@@ -22,69 +24,85 @@
         <option name="visible" value="false" />
       </GlobalState>
     </option>
+    <device-configurations>
+      <entry key="file://$PROJECT_DIR$/res/layout-land/main.xml" value="Portrait" />
+      <entry key="file://$PROJECT_DIR$/res/layout-land/test.xml" value="Portrait" />
+    </device-configurations>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644e20a8-e21d-4188-b452-a34536f1fe06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/about/AboutActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/BrainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/example/EasyAnatomy/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/ChooseTestActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/CongratsResultActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/HeartActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/HumanActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/util/JSONUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/LungsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/example/EasyAnatomy/Manifest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/example/EasyAnatomy/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/results/ResultsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/TestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/circ_system_test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/clicker_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/congrats_result.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/muscles_test.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/quesucede/gameoflife/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/quesucede/gameoflife/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/quesucede/gameoflife/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/HumanActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/about/AboutActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/human_activity/BrainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/human_activity/HeartActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/human_activity/LungsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/results/ResultsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/test/ChooseTestActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/test/Question.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/test/StartTestActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/Simp/test/TestType.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/background_land.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/background_land_upd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/circulatory_system.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/colon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/eye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/gallbladder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/human_organs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/liver.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/skeleton.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/small_intensine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/stomach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/thyroid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/AtlasActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/util/AtlasUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/InfoActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/Organs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/ViewPagerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/button_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/checkbox_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/info.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-land/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/maintext.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/clicker_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/human_organs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/mozg_cheloveka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/brain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/empty.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/human.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/HumanActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/BrainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/HeartActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/LungsActivity.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/polmones.png" afterPath="$PROJECT_DIR$/res/drawable/lungs.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/heart.xml" afterPath="$PROJECT_DIR$/res/layout/activity_grid_view.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/lungs.xml" afterPath="$PROJECT_DIR$/res/layout/albom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/front_pic.jpg" afterPath="$PROJECT_DIR$/res/drawable/front_pic.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bodies_test.json" afterPath="$PROJECT_DIR$/assets/bodies_test.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/ChooseTestActivity.java" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/ChooseTestActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/CongratsResultActivity.java" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/CongratsResultActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EasyAnatomy.iml" afterPath="$PROJECT_DIR$/EasyAnatomy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/TestType.java" afterPath="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/TestType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/test.xml" afterPath="$PROJECT_DIR$/res/layout/test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/test_chooser.xml" afterPath="$PROJECT_DIR$/res/layout/test_chooser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Simp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MainActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411470614123" ignored="false" />
-    <file path="/Dummy.txt" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411475918505" ignored="false" />
+    <file path="/MainActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411742509578" ignored="false" />
+    <file path="/Dummy.txt" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411848597722" ignored="false" />
     <file path="/GridActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1410704011937" ignored="false" />
     <file path="/grid.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1410465648137" ignored="false" />
-    <file path="/fragment.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411402537966" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411389223279" ignored="false" />
+    <file path="/fragment.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411636667584" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411850754738" ignored="false" />
     <file path="/AboutActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1410632905119" ignored="false" />
     <file path="/PreferencesActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1410699867360" ignored="false" />
-    <file path="/main.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1410987598151" ignored="false" />
-    <file path="/strings.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411232512962" ignored="false" />
-    <file path="/HumanActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411364847326" ignored="false" />
+    <file path="/main.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411743013280" ignored="false" />
+    <file path="/strings.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411846911688" ignored="false" />
+    <file path="/HumanActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411633857349" ignored="false" />
     <file path="/human.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411228199479" ignored="false" />
     <file path="/about.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411229272082" ignored="false" />
     <file path="$PROJECT_DIR$/../ClickableArea/AndroidManifest.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1410759421138" ignored="false" />
@@ -121,7 +139,7 @@
     <file path="/lungs.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411231485930" ignored="false" />
     <file path="/hurts.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411233224281" ignored="false" />
     <file path="/HeartActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411237537213" ignored="false" />
-    <file path="/a.dummy" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411234739620" ignored="false" />
+    <file path="/a.dummy" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411839529489" ignored="false" />
     <file path="/MainTestActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411251117803" ignored="false" />
     <file path="/test.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411383862729" ignored="false" />
     <file path="/StartTestActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411475824889" ignored="false" />
@@ -131,13 +149,30 @@
     <file path="/ChooseTestActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411299970791" ignored="false" />
     <file path="/Question.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411387722952" ignored="false" />
     <file path="/ResultsActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411327171430" ignored="false" />
-    <file path="/clicker_bg.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411376657045" ignored="false" />
+    <file path="/clicker_bg.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411575163716" ignored="false" />
     <file path="/circ_system_test.json" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411380904993" ignored="false" />
     <file path="/muscles_test.json" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411380939014" ignored="false" />
     <file path="/CongratsResultActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411390466189" ignored="false" />
     <file path="/results.json" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411392212134" ignored="false" />
     <file path="/Result.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411408395977" ignored="false" />
     <file path="/JSONUtil.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411469666261" ignored="false" />
+    <file path="/styles.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411488140926" ignored="false" />
+    <file path="/learn_button_bg.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411582218229" ignored="false" />
+    <file path="/AtlasActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411754117837" ignored="false" />
+    <file path="/FullScreenImageViewAdapter.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411638404349" ignored="false" />
+    <file path="/albom.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411638335323" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/EasyAnatomy/BuildConfig.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411640942620" ignored="false" />
+    <file path="/CustomAdapter.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411642126459" ignored="false" />
+    <file path="/activity_grid_view.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411645450884" ignored="false" />
+    <file path="/test_button_bg.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411658534109" ignored="false" />
+    <file path="/main_text.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411657223345" ignored="false" />
+    <file path="/dimens.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411847581304" ignored="false" />
+    <file path="/checkbox_view.xml" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411744569463" ignored="false" />
+    <file path="/ViewPagerAdapter.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411850838094" ignored="false" />
+    <file path="/Organs.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411833007287" ignored="false" />
+    <file path="/InfoActivity.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411814348602" ignored="false" />
+    <file path="/Atlas.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411796710179" ignored="false" />
+    <file path="/AtlasUtil.java" changelist="644e20a8-e21d-4188-b452-a34536f1fe06" time="1411822032434" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +180,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -189,7 +229,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" line="98" class="com.example.EasyAnatomy.test.StartTestActivity$2" package="com.example.EasyAnatomy.test">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" line="96" class="com.example.EasyAnatomy.test.StartTestActivity$2" package="com.example.EasyAnatomy.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -204,7 +244,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" line="58" class="com.example.EasyAnatomy.test.StartTestActivity$1" package="com.example.EasyAnatomy.test">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" line="56" class="com.example.EasyAnatomy.test.StartTestActivity$1" package="com.example.EasyAnatomy.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -219,7 +259,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" line="190" class="com.example.EasyAnatomy.test.StartTestActivity" package="com.example.EasyAnatomy.test">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" line="184" class="com.example.EasyAnatomy.test.StartTestActivity" package="com.example.EasyAnatomy.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -245,48 +285,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Result.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/Result.java">
+      <file leaf-file-name="AtlasActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/AtlasActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartTestActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2243" selection-end="2243" vertical-scroll-proportion="-1.6006601">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1770#3920#0" expanded="true" />
-                <element signature="e#3909#3910#0" expanded="true" />
-                <element signature="e#3956#4246#0" expanded="true" />
-                <element signature="e#4235#4236#0" expanded="true" />
-                <element signature="method#onKeyDown#0;class#StartTestActivity#0" expanded="false" />
-                <element signature="e#6368#6376#0" expanded="true" />
-                <element signature="e#6950#7206#0" expanded="true" />
-                <element signature="e#7191#7192#0" expanded="true" />
-                <element signature="e#9597#9605#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/util/JSONUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="72" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
+            <state line="14" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -294,27 +296,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
-              <folding />
+      <file leaf-file-name="ViewPagerAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/ViewPagerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="66" selection-start="3849" selection-end="3849" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/test.xml">
-          <provider editor-type-id="text-editor">
-            <state line="27" column="39" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0">
+      <file leaf-file-name="InfoActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/InfoActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.46153846">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="37" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChooseTestActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/ChooseTestActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="46" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="38" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -334,27 +359,37 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="EasyAnatomy" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/muscles_test.json" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/LungsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/about/AboutActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/HeartActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/human_activity/BrainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/results/ResultsActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/albom.xml" />
+        <option value="$PROJECT_DIR$/res/values-sw800dp/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/values-fwvga/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout/test.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/Question.java" />
-        <option value="$PROJECT_DIR$/res/layout/congrats_result.xml" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/layout/test_chooser.xml" />
+        <option value="$PROJECT_DIR$/res/values-sw720dp/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/layout/results.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/ChooseTestActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/Organs.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/CongratsResultActivity.java" />
-        <option value="$PROJECT_DIR$/assets/results.json" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/util/JSONUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/Result.java" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/ViewPagerAdapter.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
@@ -398,76 +433,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 4.4.2 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EasyAnatomy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 4.4.2 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EasyAnatomy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 4.4.2 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EasyAnatomy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 4.4.2 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -530,7 +495,113 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-sw720dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-sw600dp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,6 +620,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyAnatomy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-land" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -598,76 +687,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EasyAnatomy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EasyAnatomy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EasyAnatomy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0123456789ABCDEF" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="SmallSamsung" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="320dp" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/res/layout-land" />
       <recent name="$PROJECT_DIR$/res/drawable" />
+      <recent name="$PROJECT_DIR$/res/values-sw720dp" />
+      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src/com/example/Simp/zoom" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/com/example/Simp" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.Simp.test" />
       <recent name="com.example.Simp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/com/example/Simp/test_sources" />
       <recent name="$PROJECT_DIR$/res/drawable" />
-      <recent name="$PROJECT_DIR$/res/drawable/organs" />
+      <recent name="\" />
+      <recent name="$PROJECT_DIR$/res/drawable/body" />
+      <recent name="$PROJECT_DIR$/res" />
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.EasyAnatomy">
@@ -703,19 +775,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -741,6 +800,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -862,6 +934,11 @@
       <created>1410323376067</created>
       <updated>1410323376067</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added initial functionality for test activity">
+      <created>1411475999592</created>
+      <updated>1411475999593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -888,29 +965,29 @@
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44983277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10227273" sideWeight="0.6722408" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27878788" sideWeight="0.6722408" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.73913044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3779264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22803031" sideWeight="0.47658864" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43311036" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5468227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19848485" sideWeight="0.5501672" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16818182" sideWeight="0.6220736" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67391306" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22954546" sideWeight="0.26086956" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32608697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67391306" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3242424" sideWeight="0.67391306" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -956,7 +1033,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initial functionality for test activity" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -970,6 +1047,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Added initial functionality for test activity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -979,49 +1057,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/java/io/InputStreamReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="15" selection-start="808" selection-end="808" vertical-scroll-proportion="0.48300537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/CongratsResultActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="448" selection-end="448" vertical-scroll-proportion="0.4458042" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/HumanActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2780" selection-end="2780" vertical-scroll-proportion="1.1048951" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/org/json/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="406" selection-end="406" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/java/io/FileInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="41" selection-start="773" selection-end="773" vertical-scroll-proportion="0.37845305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/bodies_test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/android/os/Looper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="766" selection-end="766" vertical-scroll-proportion="0.41791046" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_grid_view.xml">
       <provider editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1029,65 +1067,124 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/android/content/ContextWrapper.class">
+    <entry file="file://$PROJECT_DIR$/res/layout/congrats_result.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="501" selection-end="501" vertical-scroll-proportion="0.32085562">
+        <state line="28" column="38" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/util/JSONUtil.java">
+    <entry file="file://$PROJECT_DIR$/res/values-sw600dp/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="72" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
+        <state line="27" column="4" selection-start="1394" selection-end="1784" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/test_chooser.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/results.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/results/ResultsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="36" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/AtlasActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/Result.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/Organs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+        <state line="26" column="4" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.4373178">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/android/widget/RadioGroup.class">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="15" selection-start="789" selection-end="789" vertical-scroll-proportion="0.33275262">
+        <state line="23" column="54" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.96910113">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.0">
+        <state line="9" column="37" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/android-studio/sdk/platforms/android-19/android.jar!/android/view/View.class">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/ChooseTestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1070" column="19" selection-start="48561" selection-end="48561" vertical-scroll-proportion="0.33333334">
+        <state line="20" column="46" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/test/StartTestActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/values-sw720dp/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2243" selection-end="2243" vertical-scroll-proportion="-1.6006601">
+        <state line="32" column="51" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/ViewPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="66" selection-start="3849" selection-end="3849" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1770#3920#0" expanded="true" />
-            <element signature="e#3909#3910#0" expanded="true" />
-            <element signature="e#3956#4246#0" expanded="true" />
-            <element signature="e#4235#4236#0" expanded="true" />
-            <element signature="method#onKeyDown#0;class#StartTestActivity#0" expanded="false" />
-            <element signature="e#6368#6376#0" expanded="true" />
-            <element signature="e#6950#7206#0" expanded="true" />
-            <element signature="e#7191#7192#0" expanded="true" />
-            <element signature="e#9597#9605#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/EasyAnatomy/atlas/InfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.46153846">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1264,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android</last-edited>
+          <last-edited>android-support-v4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

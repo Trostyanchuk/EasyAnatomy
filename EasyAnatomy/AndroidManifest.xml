@@ -13,17 +13,10 @@
                   android:label="@string/about_title"
                   android:theme="@android:style/Theme.Dialog">
         </activity>
-        <activity android:name="com.example.EasyAnatomy.HumanActivity"
-                  android:label="@string/learn_label"/>
-        <activity android:name="com.example.EasyAnatomy.human_activity.BrainActivity"
-                  android:theme="@android:style/Theme.Dialog"
-                  android:label="@string/brain_title"/>
-        <activity android:name="com.example.EasyAnatomy.human_activity.LungsActivity"
-                  android:theme="@android:style/Theme.Dialog"
-                  android:label="@string/lungs_title"/>
-        <activity android:name="com.example.EasyAnatomy.human_activity.HeartActivity"
-                  android:theme="@android:style/Theme.Dialog"
-                  android:label="@string/heart_title"/>
+        <activity android:name=".atlas.AtlasActivity"
+                android:configChanges="orientation"/>
+        <activity android:name=".atlas.InfoActivity"
+                  android:theme="@android:style/Theme.Dialog"/>
         <activity android:name="com.example.EasyAnatomy.test.ChooseTestActivity"/>
         <activity android:name="com.example.EasyAnatomy.test.StartTestActivity"/>
         <activity android:name="com.example.EasyAnatomy.results.ResultsActivity"/>

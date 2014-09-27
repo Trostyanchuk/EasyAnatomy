@@ -5,75 +5,67 @@
                 android:layout_height="match_parent" android:background="@drawable/front_pic">
 
     <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choose category to check yourself:"
-            android:id="@+id/textView" android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true" android:layout_marginTop="35dp" android:textStyle="bold"
-            android:textSize="7pt" android:textIsSelectable="false" android:layout_marginLeft="8dp"
-            android:typeface="serif" android:textAlignment="viewEnd" android:layout_alignParentStart="false"
-            android:layout_alignParentEnd="false" android:layout_centerInParent="true"/>
+            android:text="@string/test_chooser_text"
+            android:id="@+id/textView" android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true" android:layout_marginTop="@dimen/test_chooser_text_margin_top" android:textStyle="bold"
+            android:textSize="@dimen/test_chooser_text_size" android:textIsSelectable="false" android:layout_marginLeft="@dimen/test_chooser_text_margin_right_left"
+            android:typeface="serif" android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false" android:layout_centerHorizontal="true"
+            android:textColor="@color/white"/>
     <TextView
-            android:layout_width="64dp"
-            android:layout_height="31dp"
-            android:text="Bodies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_chooser_body_label"
             android:id="@+id/text_bodies"
-            android:textSize="7pt"
+            android:textSize="@dimen/test_chooser_text_size"
             android:textStyle="bold"
-            android:layout_alignParentLeft="true" android:layout_marginLeft="49dp" android:layout_alignParentTop="true"
-            android:layout_marginTop="101dp" android:typeface="serif"/>
+            android:typeface="serif"
+            android:layout_alignLeft="@+id/textView" android:layout_below="@+id/textView"
+            android:textColor="@color/white" android:layout_marginTop="@dimen/test_chooser_text_variant_margin_top"
+            android:layout_marginLeft="@dimen/test_chooser_text_variant_margin_left"/>
     <Button
-            android:layout_width="28dp"
-            android:layout_height="28dp"
+            android:layout_width="@dimen/test_arrow_size"
+            android:layout_height="@dimen/test_arrow_size"
             android:id="@+id/to_bodies_activity"
             android:layout_alignParentEnd="false" android:singleLine="false"
             android:layout_alignParentStart="false"
             android:background="@drawable/arrow"
-            android:layout_centerHorizontal="true" android:layout_alignTop="@+id/text_bodies"/>
+            android:layout_alignRight="@+id/textView" android:layout_alignTop="@+id/text_bodies"
+            android:layout_marginRight="@dimen/test_chooser_arrow_margin_right"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Muscles"
+            android:text="@string/test_chooser_skeleton_label"
             android:id="@+id/text_muscles"
-            android:textSize="7pt" android:textStyle="bold" android:typeface="serif"
-            android:layout_alignLeft="@+id/text_bodies" android:layout_alignParentTop="true"
-            android:layout_marginTop="140dp"/>
+            android:textSize="@dimen/test_chooser_text_size" android:textStyle="bold" android:typeface="serif"
+            android:textColor="@color/white" android:layout_alignLeft="@+id/textView"
+            android:layout_below="@+id/text_bodies" android:layout_marginTop="@dimen/test_chooser_text_variant_margin_top"
+            android:layout_marginLeft="@dimen/test_chooser_text_variant_margin_left"/>
     <Button
-            android:layout_width="28dp"
-            android:layout_height="28dp"
+            android:layout_width="@dimen/test_arrow_size"
+            android:layout_height="@dimen/test_arrow_size"
             android:id="@+id/to_muscles_activity"
             android:clickable="false"
             android:background="@drawable/arrow"
-            android:layout_alignLeft="@+id/to_bodies_activity" android:layout_alignBottom="@+id/text_muscles"/>
+            android:layout_alignRight="@+id/textView" android:layout_alignTop="@+id/text_muscles"
+            android:layout_marginRight="@dimen/test_chooser_arrow_margin_right"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Circulatory system"
+            android:text="@string/test_chooser_circ_system_label"
             android:id="@+id/text_cirtsys"
-            android:textStyle="bold" android:textSize="7pt" android:typeface="serif"
-            android:layout_alignLeft="@+id/text_bodies" android:layout_alignParentTop="true"
-            android:layout_marginTop="180dp"/>
+            android:textStyle="bold" android:textSize="@dimen/test_chooser_text_size" android:typeface="serif"
+            android:layout_alignLeft="@+id/textView" android:layout_below="@+id/text_muscles"
+            android:textColor="@color/white" android:layout_marginTop="@dimen/test_chooser_text_variant_margin_top"
+            android:layout_marginLeft="@dimen/test_chooser_text_variant_margin_left"/>
     <Button
-            android:layout_width="28dp"
-            android:layout_height="28dp"
+            android:layout_width="@dimen/test_arrow_size"
+            android:layout_height="@dimen/test_arrow_size"
             android:id="@+id/to_circ_activity"
             android:singleLine="false"
-            android:background="@drawable/arrow" android:layout_alignParentLeft="true"
-            android:layout_marginLeft="250dp" android:layout_alignTop="@+id/text_cirtsys"/>
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Back"
-            android:id="@+id/text_back"
-            android:textStyle="bold" android:typeface="serif" android:textSize="6pt"
-            android:layout_alignLeft="@+id/text_bodies" android:layout_alignParentTop="true"
-            android:layout_marginTop="300dp"/>
-    <Button
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:id="@+id/back"
-            android:background="@drawable/arrow_back"
-            android:textStyle="normal"
-            android:layout_alignLeft="@+id/textView" android:layout_alignTop="@+id/text_back"
-            android:layout_alignParentStart="false"/>
+            android:background="@drawable/arrow"
+            android:layout_alignRight="@+id/textView" android:layout_alignTop="@+id/text_cirtsys"
+            android:layout_marginRight="@dimen/test_chooser_arrow_margin_right"/>
 </RelativeLayout>

@@ -7,53 +7,70 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your question question Your question questionYour question questionYour question question:"
+            android:text="@string/test_question_default_text"
             android:id="@+id/question"
             android:textStyle="bold"
-            android:textColor="#ffffff" android:textIsSelectable="false" android:layout_alignParentLeft="true"
-            android:layout_margin="20dp"/>
+            android:textColor="#ffffff" android:textIsSelectable="false"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true" android:textSize="@dimen/test_question_text_size"
+            android:gravity="left" android:layout_marginLeft="@dimen/test_question_margin_right_left" android:layout_marginRight="@dimen/test_question_margin_right_left"
+            android:typeface="serif" android:layout_marginTop="@dimen/test_question_margin_top_bottom"
+            android:layout_marginBottom="@dimen/test_question_margin_top_bottom"/>
     <Button
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/test_arrow_size"
+            android:layout_height="@dimen/test_arrow_size"
             android:id="@+id/back"
-            android:layout_alignLeft="@+id/question" android:layout_alignParentTop="true"
-            android:layout_marginTop="310dp" android:layout_marginLeft="65dp" android:background="@drawable/arrow_back"/>
+            android:background="@drawable/arrow_back"
+            android:layout_alignParentEnd="false" android:layout_alignParentStart="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="@dimen/test_arrov_margin_right_left" android:layout_above="@+id/aliment"/>
     <Button
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:id="@+id/next" android:layout_alignParentLeft="true"
-            android:layout_alignTop="@+id/back" android:layout_marginLeft="190dp" android:background="@drawable/arrow"/>
+            android:layout_width="@dimen/test_arrow_size"
+            android:layout_height="@dimen/test_arrow_size"
+            android:id="@+id/next" android:layout_alignParentLeft="false"
+            android:background="@drawable/arrow"
+            android:layout_alignParentBottom="false" android:layout_alignParentRight="true"
+            android:layout_above="@+id/aliment" android:layout_marginRight="@dimen/test_arrov_margin_right_left"/>
     <RadioGroup
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:id="@+id/radioGroup"
-            android:layout_height="fill_parent" android:layout_alignLeft="@+id/question"
-            android:layout_alignTop="@+id/question" android:layout_alignBottom="@+id/back"
-            android:layout_alignRight="@+id/question">
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/question" android:layout_alignRight="@+id/question"
+            android:layout_below="@+id/question">
         <RadioButton
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button1 Button1 Button1 Button1 Button1 Button1"
+                android:text="@string/test_variant_default_text"
                 android:id="@+id/variant1"
-                android:layout_alignParentLeft="false" android:layout_marginLeft="5dp" android:layout_alignParentTop="false"
-                android:layout_marginTop="80dp" android:layout_alignTop="@+id/question"
-                android:textStyle="italic"/>
+                android:layout_alignParentLeft="false" android:layout_alignParentTop="false"
+                android:layout_alignTop="@+id/question"
+                android:textStyle="italic" android:typeface="serif" android:textColor="@color/white"
+                android:textSize="@dimen/test_variant_text_size"
+                android:layout_marginLeft="@dimen/test_checkbox_margin_left" android:layout_marginTop="@dimen/test_checkbox_margin_top"/>
         <RadioButton
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button2 Button2 Button2 Button2 Button2 Button2"
+                android:text="@string/test_variant_default_text"
                 android:id="@+id/variant2"
                 android:layout_alignParentLeft="false" android:layout_alignParentTop="false"
                 android:textStyle="italic"
                 android:layout_alignTop="@+id/question" android:layout_alignRight="@+id/variant3"
-                android:layout_marginLeft="5dp" android:layout_marginTop="5dp"/>
+                android:layout_marginLeft="@dimen/test_checkbox_margin_left" android:typeface="serif"
+                android:textSize="@dimen/test_variant_text_size" android:textColor="@color/white"
+                android:layout_marginTop="@dimen/test_checkbox_margin_top"/>
         <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button3 Button3 Button3 Button3 Button3 Button3 "
+                android:text="@string/test_variant_default_text"
                 android:id="@+id/variant3" android:layout_alignLeft="@+id/variant1"
                 android:layout_alignParentTop="false"
                 android:layout_alignTop="@+id/question" android:textStyle="italic"
-                android:layout_alignRight="@+id/question" android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"/>
+                android:layout_alignRight="@+id/question" android:layout_marginLeft="@dimen/test_checkbox_margin_left"
+                android:typeface="serif" android:textSize="@dimen/test_variant_text_size"
+                android:layout_marginTop="@dimen/test_checkbox_margin_top"/>
     </RadioGroup>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/test_aliment_element_height"
+            android:id="@+id/aliment" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
 </RelativeLayout>

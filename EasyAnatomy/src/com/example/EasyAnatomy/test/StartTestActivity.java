@@ -5,7 +5,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.JsonWriter;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.*;
@@ -29,7 +28,6 @@ public class StartTestActivity extends Activity {
     private TestType test = TestType.DEFAULT;
     private JSONObject jsonObject;
     private JSONArray jsonArray;
-
     private List<Question> questions = new ArrayList<Question>();
     private int counter = 0;
     private int result = 0;
@@ -96,7 +94,7 @@ public class StartTestActivity extends Activity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(!setDrawableInfo(--counter)) {
+                if (!setDrawableInfo(--counter)) {
                     back.setVisibility(View.INVISIBLE);
                 }
                 questionTextView.invalidate();
@@ -115,31 +113,27 @@ public class StartTestActivity extends Activity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            if (counter != 0) {
-                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(StartTestActivity.this);
-                alertDialogBuilder.setMessage("Сохранить Ваш результат?")
-                        .setCancelable(false)
-                        .setPositiveButton("Да", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                                saveResults();
-                                Intent congratsActivity = new Intent(StartTestActivity.this, CongratsResultActivity.class);
-                                congratsActivity.putExtra("result", result);
-                                startActivity(congratsActivity);
-                                finish();
-                            }
-                        })
-                        .setNegativeButton("Нет", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                                finish();
-                            }
-                        });
-                AlertDialog alertDialog = alertDialogBuilder.create();
-                alertDialog.show();
-            } else {
-                finish();
-            }
+            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(StartTestActivity.this);
+            alertDialogBuilder.setMessage("Сохранить Ваш результат?")
+                    .setCancelable(false)
+                    .setPositiveButton("Да", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            saveResults();
+                            Intent congratsActivity = new Intent(StartTestActivity.this, CongratsResultActivity.class);
+                            congratsActivity.putExtra("result", result);
+                            startActivity(congratsActivity);
+                            finish();
+                        }
+                    })
+                    .setNegativeButton("Нет", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            finish();
+                        }
+                    });
+            AlertDialog alertDialog = alertDialogBuilder.create();
+            alertDialog.show();
             return true;
         }
         return super.onKeyDown(keyCode, event);
@@ -154,7 +148,7 @@ public class StartTestActivity extends Activity {
         List<Result> results = new ArrayList<Result>();
         try {
             String jsonString = JSONUtil.loadJSONFromInternalDir(this);
-            if(jsonString != null && !jsonString.isEmpty()) {
+            if (jsonString != null && !jsonString.isEmpty()) {
                 jsonArray = new JSONArray(jsonString);
                 for (int i = 0; i < jsonArray.length(); i++) {
                     jsonObject = (JSONObject) jsonArray.get(i);
@@ -165,15 +159,15 @@ public class StartTestActivity extends Activity {
             Collections.sort(results, new Comparator<Result>() {
                 @Override
                 public int compare(Result result, Result result2) {
-                    return result.getMark() > result2.getMark() ? result.getMark() : result2.getMark();
+                    return result.getMark() - result2.getMark();
                 }
             });
             results.get(0);
-            if(results.size() > JSONUtil.MAX_RECORDS) {
+            if (results.size() > JSONUtil.MAX_RECORDS) {
                 results.remove(JSONUtil.MAX_RECORDS);
             }
             jsonArray = new JSONArray();
-            for(int i = 0; i < results.size(); i++) {
+            for (int i = 0; i < results.size(); i++) {
                 jsonObject = new JSONObject();
                 jsonObject.put("date", results.get(i).getDate());
                 jsonObject.put("mark", results.get(i).getMark());
@@ -207,7 +201,7 @@ public class StartTestActivity extends Activity {
             return false;
         }
 
-        if (test.equals(TestType.BODIES)) source = JSONUtil.BODY_TEST_FILE;
+        if (test.equals(TestType.ORGANS)) source = JSONUtil.BODY_TEST_FILE;
         else if (test.equals(TestType.MUSCLES)) source = JSONUtil.MUSCLES_TEST_FILE;
         else if (test.equals(TestType.CIRC_SYS)) source = JSONUtil.CIRC_SYSTEM_TEST;
 

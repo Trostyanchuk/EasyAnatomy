@@ -1,34 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:background="@drawable/front_pic" android:layout_height="fill_parent"
-              android:layout_width="fill_parent" android:padding="30dip"
-              android:orientation="horizontal">
-    <LinearLayout android:orientation="vertical"
-                  android:layout_height="wrap_content" android:layout_width="fill_parent"
-                  android:layout_gravity="center">
-        <TextView android:text="@string/main_title"
-                  android:layout_height="wrap_content" android:layout_width="wrap_content"
-                  android:layout_gravity="center" android:layout_marginBottom="25dip"
-                  android:textSize="24.5sp" android:textStyle="bold" android:typeface="serif"
-                  android:textColorLink="#ffffdc" android:textColorHint="#ffffff" android:textColorHighlight="#f9ff5b"
-                  android:textColor="#ffffff"/>
-        <Button android:id="@+id/learn_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/learn_label" android:textStyle="bold"
-                android:typeface="serif" android:textSize="6pt"/>
-        <Button android:id="@+id/test_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/test_label" android:textStyle="bold"
-                android:typeface="serif" android:textSize="6pt"/>
-        <Button android:id="@+id/results_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/results_label" android:textStyle="bold"
-                android:typeface="serif" android:textSize="6pt"/>
-        <Button android:id="@+id/about_button" android:layout_width="fill_parent"
-                android:layout_height="wrap_content" android:text="@string/about_label" android:textStyle="bold"
-                android:typeface="serif" android:textSize="6pt" android:textColor="#010101"/>
-        <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Exit"
-                android:id="@+id/exit_button" android:layout_gravity="center" android:textStyle="bold"
-                android:typeface="serif" android:textSize="6pt"/>
-    </LinearLayout>
-</LinearLayout>
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/front_pic">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_label"
+            android:id="@+id/textView" android:layout_alignParentTop="true"
+            android:textStyle="bold" android:typeface="serif" android:textSize="@dimen/main_text_size"
+            android:layout_centerHorizontal="true" android:gravity="center"
+            android:layout_marginTop="@dimen/main_land_label_margin_top"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aliment" android:layout_centerHorizontal="true" android:layout_alignTop="@+id/textView"/>
+    <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:text="@string/learn_label"
+            android:id="@+id/learn_button" android:layout_toLeftOf="@+id/aliment" android:layout_below="@+id/textView"
+            android:background="@drawable/button_bg" android:textStyle="bold|normal" android:textSize="@dimen/main_button_text_size"
+            android:alpha="0.6" android:layout_marginTop="@dimen/main_land_button_margin_top"
+            android:layout_marginRight="@dimen/main_button_margin_right_left"
+            android:layout_marginBottom="@dimen/main_button_margin_top" android:typeface="serif"/>
+    <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:text="@string/test_label"
+            android:id="@+id/test_button" android:layout_alignLeft="@+id/aliment" android:layout_below="@+id/textView"
+            android:background="@drawable/button_bg" android:alpha="0.6" android:textStyle="bold|normal"
+            android:typeface="serif" android:textSize="@dimen/main_button_text_size"
+            android:layout_marginTop="@dimen/main_land_button_margin_top"
+            android:layout_marginLeft="@dimen/main_button_margin_right_left"
+            android:layout_marginBottom="@dimen/main_button_margin_top"/>
+    <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:text="@string/results_label"
+            android:id="@+id/results_button" android:layout_toLeftOf="@+id/aliment" android:layout_below="@+id/learn_button"
+            android:background="@drawable/button_bg" android:alpha="0.6" android:textStyle="bold"
+            android:typeface="serif" android:textSize="@dimen/main_button_text_size"
+            android:layout_marginRight="@dimen/main_button_margin_right_left"
+            android:layout_marginTop="@dimen/main_button_margin_top"/>
+    <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:text="@string/about_label"
+            android:id="@+id/help_button" android:layout_toRightOf="@+id/aliment" android:layout_below="@+id/learn_button"
+            android:background="@drawable/button_bg" android:alpha="0.6" android:textStyle="bold"
+            android:typeface="serif" android:textSize="@dimen/main_button_text_size"
+            android:layout_marginLeft="@dimen/main_button_margin_right_left"
+            android:layout_marginTop="@dimen/main_button_margin_top"/>
+</RelativeLayout>

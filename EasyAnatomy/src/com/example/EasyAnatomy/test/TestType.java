@@ -2,7 +2,7 @@ package com.example.EasyAnatomy.test;
 
 public enum TestType {
 
-    BODIES,
+    ORGANS,
     MUSCLES,
     CIRC_SYS,
     DEFAULT

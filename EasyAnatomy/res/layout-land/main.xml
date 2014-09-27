@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/background_land_upd" android:alpha="0.6" android:layout_gravity="center|left">
+    <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:text="@string/learn_label"
+            android:id="@+id/learn_button"
+            android:layout_alignParentLeft="false" android:layout_alignParentTop="false"
+            android:background="@drawable/button_bg" android:alpha="0.6"
+            android:textSize="@dimen/main_button_text_size" android:typeface="serif" android:textStyle="bold"
+            android:layout_below="@+id/textView" android:layout_toLeftOf="@+id/textView"
+            android:layout_marginTop="@dimen/main_land_button_margin_top" android:layout_marginRight="@dimen/main_land_button_margin_right_left"/>
+    <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:text="@string/test_label"
+            android:id="@+id/test_button"
+            android:layout_alignParentLeft="false" android:layout_alignParentTop="false"
+            android:textStyle="bold" android:typeface="serif"
+            android:background="@drawable/button_bg" android:alpha="0.6"
+            android:textSize="@dimen/main_button_text_size"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_below="@+id/textView" android:layout_marginTop="@dimen/main_land_button_margin_top" android:layout_marginLeft="@dimen/main_land_button_margin_right_left"/>
+    <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:text="@string/results_label"
+            android:id="@+id/results_button" android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:background="@drawable/button_bg" android:alpha="0.7"
+            android:textStyle="bold" android:typeface="serif" android:textSize="@dimen/main_button_text_size"
+            android:layout_below="@+id/learn_button" android:layout_toLeftOf="@+id/textView"
+            android:layout_marginTop="@dimen/main_land_button_margin_top_button" android:layout_marginRight="@dimen/main_land_button_margin_right_left"/>
+    <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:text="@string/about_label"
+            android:id="@+id/help_button"
+            android:layout_below="@+id/test_button" android:background="@drawable/button_bg" android:alpha="0.6"
+            android:textSize="@dimen/main_button_text_size" android:textStyle="bold" android:typeface="serif"
+            android:layout_toRightOf="@+id/textView" android:layout_marginTop="@dimen/main_land_button_margin_top_button" android:layout_marginLeft="@dimen/main_land_button_margin_right_left"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false" android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="false" android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_land_label"
+            android:id="@+id/textView1"
+            android:layout_centerHorizontal="true" android:textSize="@dimen/main_text_land_size" android:textColor="@color/white"
+            android:typeface="serif" android:textStyle="bold|normal" android:layout_marginTop="@dimen/main_land_label_margin_top"/>
+</RelativeLayout>

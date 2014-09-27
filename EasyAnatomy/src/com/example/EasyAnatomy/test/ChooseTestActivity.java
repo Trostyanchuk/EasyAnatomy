@@ -20,20 +20,12 @@ public class ChooseTestActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.test_chooser);
 
-        back = (Button) findViewById(R.id.back);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
-
         bodyButton = (Button) findViewById(R.id.to_bodies_activity);
         bodyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent startBodiesTest = new Intent(getApplicationContext(), StartTestActivity.class);
-                startBodiesTest.putExtra("test", TestType.BODIES);
+                startBodiesTest.putExtra("test", TestType.ORGANS);
                 startActivity(startBodiesTest);
             }
         });

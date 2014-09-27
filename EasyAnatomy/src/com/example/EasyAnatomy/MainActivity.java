@@ -5,24 +5,21 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import com.example.EasyAnatomy.about.AboutActivity;
+import android.widget.Button;
+import com.example.EasyAnatomy.atlas.AtlasActivity;
 import com.example.EasyAnatomy.results.ResultsActivity;
 import com.example.EasyAnatomy.test.ChooseTestActivity;
-import com.example.EasyAnatomy.test.Question;
-import com.example.EasyAnatomy.test.Result;
 import com.example.EasyAnatomy.util.JSONUtil;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.*;
-import java.nio.MappedByteBuffer;
-import java.nio.channels.FileChannel;
-import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.List;
+public class MainActivity extends Activity {
 
-public class MainActivity extends Activity implements View.OnClickListener {
+    Button learnButton;
+    Button testButton;
+    Button resultsButton;
+    Button helpButton;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,40 +27,42 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         initiateResultFile();
-        //click-handlers for buttons
-        View learnButton = findViewById(R.id.learn_button);
-        learnButton.setOnClickListener(this);
-        View testButton = findViewById(R.id.test_button);
-        testButton.setOnClickListener(this);
-        View resultsButton = findViewById(R.id.results_button);
-        resultsButton.setOnClickListener(this);
-        View aboutButton = findViewById(R.id.about_button);
-        aboutButton.setOnClickListener(this);
-        View exitButton = findViewById(R.id.exit_button);
-        exitButton.setOnClickListener(this);
-    }
 
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.learn_button:
-                Intent humanIntent = new Intent(this, HumanActivity.class);
+        //click-handlers for buttons
+        learnButton = (Button) findViewById(R.id.learn_button);
+        learnButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent humanIntent = new Intent(getApplicationContext(), AtlasActivity.class);
                 startActivity(humanIntent);
-                break;
-            case R.id.test_button:
-                Intent testIntent = new Intent(this, ChooseTestActivity.class);
+            }
+        });
+
+        testButton = (Button) findViewById(R.id.test_button);
+        testButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent testIntent = new Intent(getApplicationContext(), ChooseTestActivity.class);
                 startActivity(testIntent);
-                break;
-            case R.id.results_button:
-                Intent resultsItent = new Intent(this, ResultsActivity.class);
+            }
+        });
+
+        resultsButton = (Button) findViewById(R.id.results_button);
+        resultsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent resultsItent = new Intent(MainActivity.this, ResultsActivity.class);
                 startActivity(resultsItent);
-                break;
-            case R.id.about_button:
-                Intent aboutIntent = new Intent(this, AboutActivity.class);
-                startActivity(aboutIntent);
-                break;
-            case R.id.exit_button:
-                System.exit(0);
-        }
+            }
+        });
+
+        helpButton = (Button) findViewById(R.id.help_button);
+        helpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 
     private void initiateResultFile() {

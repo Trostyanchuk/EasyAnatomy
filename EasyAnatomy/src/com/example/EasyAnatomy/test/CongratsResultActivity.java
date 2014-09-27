@@ -13,7 +13,7 @@ public class CongratsResultActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.brain);
+        setContentView(R.layout.info);
         Bundle extras = getIntent().getExtras();
         result = extras.getInt("result");
     }
