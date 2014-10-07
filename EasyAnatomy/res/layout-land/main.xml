@@ -2,7 +2,7 @@
 <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
-        android:background="@drawable/background_land_upd" android:alpha="0.6" android:layout_gravity="center|left">
+        android:background="@drawable/background" android:alpha="0.6" android:layout_gravity="center|left">
     <Button
             android:layout_width="@dimen/main_button_width"
             android:layout_height="@dimen/main_button_height"

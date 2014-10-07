@@ -7,6 +7,12 @@
             <corners android:radius="5dp"/>
         </shape>
     </item>
+    <!--item android:state_pressed="true">
+        <shape>
+            <gradient android:angle="270" android:startColor="#000000" android:endColor="#FA8072"/>
+            <corners android:radius="5dp"/>
+        </shape>
+    </item-->
     <item android:state_pressed="true">
         <shape>
             <gradient android:angle="270" android:startColor="#000000" android:endColor="#FA8072"/>

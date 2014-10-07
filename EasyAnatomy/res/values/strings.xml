@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="grid_title">Game of Life Grid</string>
-    <string name="settings_title">Game of Life Settings</string>
-    <string name="settings_shortcut">s</string>
     <string name="app_name">Easy anatomy</string>
-    <string name="main_title">Easy anatomy</string>
     <string name="main_label">Твое тело: \nфакты, \nкоторые тебя удивят</string>
     <string name="main_land_label">Твое тело: факты, которые тебя удивят</string>
     <string name="learn_label">Атласы</string>
@@ -16,19 +12,23 @@
     <string name="test_chooser_skeleton_label">Факты о скелете</string>
     <string name="test_chooser_circ_system_label">Кровеносная система</string>
     <string name="results_label">Твои \nуспехи</string>
+    <string name="results_text">Лучшие результаты</string>
     <string name="about_label">Зачем я здесь?</string>
-    <string name="exit_label">Exit</string>
-    <string name="about_text">The app is created for kids to learn inside structure of human</string>
-    <string name="about_title">About Easy Anatomy</string>
     <string name="albom_organs"> - органы\n</string>
     <string name="albom_skeleton_rigth">скелет -\n</string>
     <string name="albom_skeleton_left"> - скелет\n</string>
     <string name="albom_circ_system"> кровообращение -\n</string>
-    <!-- Инфо для разных частей тела, костей и т.д.-->
+    <!-- Инфо для картинки органов.-->
     <string name="brain_title">Мозг</string>
-    <string name="brain_text">Это неотформатированный интересный текст о мозге. Здесь будет один
-        или несколько фактов, которые знает не каждый человек, их будет много и я постараюсь
-        наполнить их смыслом</string>
+    <string name="brain_text">
+        \tЛучше всего наш мозг помнит запахи, а не звуки, образы или осязательные ощущения.\n
+        \tКаждый день наш мозг выдает порядка 70 тысяч различных мыслей.\n
+        \t Человеческий мозг способен запомнить в 5 раз больше информации, чем содержится в Энциклопедии Британника.
+            Ученым еще предстоит установить точный объем, но уже известно, что в переводе на компьютерную терминологию мозг
+            способен вместить от 3 до 1000 терабайт.\n
+        \tДля полноценной работы мозгу нужен эквивалент энергии, потребляемой 10-ваттной лампочкой.
+        Мозг также генерирует количество энергии равное маленькой лампочке даже во время сна.
+        </string>
     <string name="eye_title">Глазное яблоко</string>
     <string name="eye_text">Это неотформатированный интересный текст о глазном яблоке. Здесь будет один
         или несколько фактов, которые знает не каждый человек, их будет много и я постараюсь
@@ -37,13 +37,9 @@
     <string name="ear_text">Это неотформатированный интересный текст о барабанной перепонке. Здесь будет один
         или несколько фактов, которые знает не каждый человек, их будет много и я постараюсь
         наполнить их смыслом</string>
-    <string name="thyroid_title">Трахея</string>
-    <string name="thyroid_text">Это неотформатированный интересный текст о трахее. Не буду писать много текста,
+    <string name="thyroid_title">Щитовидная железа</string>
+    <string name="thyroid_text">Это неотформатированный интересный текст о щитовидке. Не буду писать много текста,
         потому что это неинтересно без фактов.</string>
-    <string name="heart_title">Сердце</string>
-    <string name="heart_text">Это неотформатированный интересный текст о барабанной перепонке. Здесь будет один
-        или несколько фактов, которые знает не каждый человек, их будет много и я постараюсь
-        наполнить их смыслом</string>
     <string name="lungs_title">Легкие</string>
     <string name="lungs_text">There are many tubes that connect your mouth to the insides of your lungs.
         Your trachea (or wind pipe) is the big tube you can feel in your throat.
@@ -75,9 +71,38 @@
         This splits into main stem bronchi, which then split many more times into tiny tubes called bronchioles.
         There are around 30,000 bronchioles in your lungs!</string>
 
+    <!-- Инфо для картинки костей.-->
+    <string name="skull_title">Череп</string>
+    <string name="skull_text">О череп, череп, череп! О подбородок, подбородок, подбородок! О подбородок, подбородок,
+        подбородок!</string>
+    <string name="chin_title">Подбородок(челюсть)</string>
+    <string name="chin_text">О подбородок, подбородок, подбородок! О подбородок, подбородок, подбородок!О подбородок,
+        подбородок, подбородок! </string>
+    <string name="spine_title">Позвоночник</string>
+    <string name="spine_text">Епта, позвоночник!О подбородок, подбородок, подбородок! О подбородок, подбородок,
+        подбородок! </string>
+    <string name="thorax_title">Грудная клетка</string>
+    <string name="thorax_text">Безумно важная часть о грудной клетке О подбородок, подбородок,
+        подбородок!</string>
+    <string name="joint_title">Сустав</string>
+    <string name="joint_text">Безумно важная часть о грудной клетке О подбородок, подбородок,
+        подбородок!</string>
+    <string name="pelvis_title">Тазовая кость</string>
+    <string name="pelvis_text">Безумно важная часть о грудной клетке О подбородок, подбородок, подбородок!</string>
+
+    <!-- Инфо для картинки кровеносной системы.-->
+    <string name="brain_blood_title">Mозг</string>
+    <string name="brain_blood_text">О череп, череп, череп! О подбородок, подбородок, подбородок! О подбородок, подбородок,
+        подбородок!</string>
+    <string name="heart_title">Сердце</string>
+    <string name="heart_text">Это неотформатированный интересный текст о барабанной перепонке. Здесь будет один
+        или несколько фактов, которые знает не каждый человек, их будет много и я постараюсь
+        наполнить их смыслом</string>
+
     <string name="color_coding_title">3</string>
     <string name="color_coding_summary">4</string>
     <string name="congrats">Твой результат:</string>
-    <string name="atlas_alert_message">В вертикальном положении устройства просмотр атласов удобнее</string>
+    <string name="atlas_alert_message">Просмотр атласов недоступен в горизонтальном положении экрана</string>
     <string name="checkbox_message">Не показывать больше это сообщение</string>
+    <string name="about_text">О программе</string>
 </resources>

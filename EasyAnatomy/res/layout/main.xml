@@ -2,7 +2,7 @@
 <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
-        android:background="@drawable/front_pic">
+        android:background="@drawable/background">
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             android:layout_height="@dimen/main_button_height"
             android:text="@string/test_label"
             android:id="@+id/test_button" android:layout_alignLeft="@+id/aliment" android:layout_below="@+id/textView"
-            android:background="@drawable/button_bg" android:alpha="0.6" android:textStyle="bold|normal"
+            android:background="@drawable/button_bg" android:alpha="0.5" android:textStyle="bold|normal"
             android:typeface="serif" android:textSize="@dimen/main_button_text_size"
             android:layout_marginTop="@dimen/main_land_button_margin_top"
             android:layout_marginLeft="@dimen/main_button_margin_right_left"
@@ -48,7 +48,7 @@
             android:layout_height="@dimen/main_button_height"
             android:text="@string/about_label"
             android:id="@+id/help_button" android:layout_toRightOf="@+id/aliment" android:layout_below="@+id/learn_button"
-            android:background="@drawable/button_bg" android:alpha="0.6" android:textStyle="bold"
+            android:background="@drawable/button_bg" android:alpha="0.5" android:textStyle="bold"
             android:typeface="serif" android:textSize="@dimen/main_button_text_size"
             android:layout_marginLeft="@dimen/main_button_margin_right_left"
             android:layout_marginTop="@dimen/main_button_margin_top"/>

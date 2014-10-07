@@ -2,13 +2,18 @@ package com.example.EasyAnatomy;
 
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
+import com.example.EasyAnatomy.about.AboutActivity;
 import com.example.EasyAnatomy.atlas.AtlasActivity;
 import com.example.EasyAnatomy.results.ResultsActivity;
 import com.example.EasyAnatomy.test.ChooseTestActivity;
+import com.example.EasyAnatomy.test.CongratsResultActivity;
 import com.example.EasyAnatomy.util.JSONUtil;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -51,8 +56,8 @@ public class MainActivity extends Activity {
         resultsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent resultsItent = new Intent(MainActivity.this, ResultsActivity.class);
-                startActivity(resultsItent);
+                Intent resultsIntent = new Intent(MainActivity.this, ResultsActivity.class);
+                startActivity(resultsIntent);
             }
         });
 
@@ -60,9 +65,35 @@ public class MainActivity extends Activity {
         helpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent aboutIntent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(aboutIntent);
             }
         });
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
+            alertDialogBuilder.setMessage("Закрыть приложение?")
+                    .setCancelable(false)
+                    .setPositiveButton("Да", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            finish();
+                        }
+                    })
+                    .setNegativeButton("Нет", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            //do nothing
+                        }
+                    });
+            AlertDialog alertDialog = alertDialogBuilder.create();
+            alertDialog.show();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
     private void initiateResultFile() {

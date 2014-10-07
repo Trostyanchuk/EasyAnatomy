@@ -5,11 +5,11 @@
         android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView
             android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:id="@+id/imageView" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
     <ScrollView
             android:layout_width="fill_parent"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:id="@+id/scrollView" android:layout_toRightOf="@+id/imageView"
             android:layout_alignTop="@+id/imageView">
         <TextView

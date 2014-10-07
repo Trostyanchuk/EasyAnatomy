@@ -21,6 +21,7 @@ public class ViewPagerAdapter extends PagerAdapter implements GestureDetector.On
     private int[] images;
     private LayoutInflater inflater;
     private GestureDetector mDetector;
+    private int currentImageId;
 
     public static int map = R.drawable.human_organs;
 
@@ -81,9 +82,14 @@ public class ViewPagerAdapter extends PagerAdapter implements GestureDetector.On
     }
 
     @Override
+    public void setPrimaryItem(ViewGroup container, int position, Object object) {
+         currentImageId = images[position];
+    }
+
+    @Override
     public boolean onDown(MotionEvent event) {
 
-        //String text = "X - "+ event.getX() + " Y- " + event.getY();
+        String text = "X - "+ event.getX() + " Y- " + event.getY();
         //Toast.makeText(context, text, Toast.LENGTH_LONG).show();
         createActivityForCurrentPoint(event.getX(), event.getY());
 
@@ -92,8 +98,15 @@ public class ViewPagerAdapter extends PagerAdapter implements GestureDetector.On
     }
 
     private void createActivityForCurrentPoint(float eventX, float eventY) {
+        int[] resources = new int[]{0, 0, 0};
 
-        int[] resources = AtlasUtil.getCustomResourcesFromOrgansMap(eventX, eventY);
+        if(currentImageId == images[0]) {
+            resources = AtlasUtil.getCustomResourcesFromOrgansMap(eventX, eventY);
+        } else if (currentImageId == images[1]) {
+            resources = AtlasUtil.getCustomResourcesFromBonesMap(eventX, eventY);
+        } else if (currentImageId == images[2]) {
+            resources = AtlasUtil.getCustomResourcesFromCirculatorySystemMap(eventX, eventY);
+        }
         int imageResource = resources[0];
         int stringResource = resources[1];
         int titleResource = resources[2];
